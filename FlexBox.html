@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=o, initial-scale=1.0">
+    <title>FlexBox</title>
+</head>
+<body>
+    <div class="flex-container1">
+        <div class="flex-item verde Verde2"></div>
+        <div class="flex-item verde Verde2"></div>
+        <div class="flex-item verde Verde2"></div>
+        <div class="flex-item verde Verde2"></div>
+        <div class="flex-item verde Verde2"></div>
+        <div class="flex-item amarelo Amarelo2"></div>
+        <div class="flex-item amarelo Amarelo2"></div>
+        <div class="flex-item amarelo Amarelo2"></div>
+        <div class="flex-item amarelo Amarelo2"></div>
+        <div class="flex-item amarelo Amarelo2"></div>
+        <div class="flex-item vermelho Vermelho2"></div>
+        <div class="flex-item vermelho Vermelho2"></div>
+        <div class="flex-item vermelho Vermelho2"></div>
+        <div class="flex-item vermelho Vermelho2"></div>
+        <div class="flex-item vermelho Vermelho2"></div>
+    </div>
+        <div class="flex-container2">
+            <div class="flex-item vermelho Vermelho3"></div>
+            <div class="flex-item verde Verde3"></div>
+            <div class="flex-item verde Verde3"></div>
+            <div class="flex-item verde Verde3"></div>
+            <div class="flex-item amarelo Amarelo3"></div>
+            <div class="flex-item vermelho Vermelho3"></div>
+            <div class="flex-item verde Verde3"></div>
+            <div class="flex-item verde Verde3"></div>
+            <div class="flex-item verde Verde3"></div>
+            <div class="flex-item amarelo Amarelo3"></div>
+            <div class="flex-item vermelho Vermelho3"></div>
+            <div class="flex-item verde Verde3"></div>
+            <div class="flex-item verde Verde3"></div>
+            <div class="flex-item verde Verde3"></div>
+            <div class="flex-item amarelo Amarelo3"></div>
+        </div>
+        <div class="flex-container3">
+            <div class="flex-item vermelho Vermelho4"></div>
+            <div class="flex-item verde Verde4"></div>
+            <div class="flex-item verde Verde4"></div>
+            <div class="flex-item verde Verde4"></div>
+            <div class="flex-item verde Verde4"></div>
+            <div class="flex-item amarelo Amarelo4"></div>
+            <div class="flex-item amarelo Amarelo4"></div>
+        </div>
+    <style>
+        .flex-container1{
+            display:flex;
+            flex-direction: row;
+            align-content: flex-start;
+            flex-wrap: wrap;
+            width: 280px;
+            height: 280px;
+            background-color: gray;
+            margin: 20px;
+            padding: 20px;
+            display: flex;
+        }
+        .flex-container2{
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+            flex-wrap: wrap;
+            width: 280px;
+            height: 280px;
+            background-color: gray;
+            margin: 20px;
+            padding: 20px;
+            display: flex;
+        }
+        .flex-container3{
+            display:flex;
+            flex-wrap: wrap-reverse;
+            flex-direction: column-reverse;
+            align-content: space-between;
+            justify-content: center;
+            width: 280px;
+            height: 280px;
+            background-color: gray;
+            margin: 20px;
+            padding: 20px;
+        }
+        .flex-item{
+            width:50px;
+            height:50px;
+            border-radius: 25%;
+        }
+        .verde{
+            background-color: green;
+        }
+        .amarelo{
+            background-color: yellow;
+        }
+        .vermelho{
+            background-color: red;
+        }
+    </style>
+    
+</body>
+</html>

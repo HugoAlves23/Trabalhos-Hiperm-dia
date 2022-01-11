@@ -1,0 +1,40 @@
+h1,h2,h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    color:lightsalmon;
+}
+h3{
+    font-size: 16px;
+    color:rgb(198,0,139);
+}
+ol li {
+    font-family: Arial, Helvetica, sans-serif;
+    color:black
+}
+ul li{
+    color:chocolate
+}
+#linha2{
+    color:darkgoldenrod
+}
+.bold{
+color:darkred
+}
+.li{
+    color:red 
+}
+header{
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 40px;
+    border-top: solid 3px lightseagreen;
+    border-bottom: 3px solid lightseagreen;
+    border-right: solid 3px lightseagreen;
+    border-left: solid 3px lightseagreen;
+}
+.container{
+    width: 70%;
+    margin:auto;
+    text-align:justify;
+}
